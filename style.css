@@ -140,6 +140,7 @@ html,body{
     background-color: black;
 }
 #p1box1{
+    background-color: #a7a5a5;
     width: 35vmax;
     height: 45vw;
     overflow: hidden;
@@ -426,7 +427,7 @@ img{
 }
 .progress-fill{
     position: absolute;
-    width: 70%;
+    width: 60%;
     height: 100%;
     background-color: #069012;
 }
@@ -646,7 +647,6 @@ img{
 }
 #greet h1{
     font-size: 1vw;
-
 }
 
 @media (max-width:600px) {
@@ -718,10 +718,13 @@ img{
         z-index: 22;
         display: flex;
         flex-direction: row;
-        gap: 20vw;
+        gap: 4vw;
         height: 50%;
         width: 100%;
         align-items: center;
+    }
+    #page3 .skill-part1{
+        align-items: flex-end;
     }
     #page3 .skill-parts h2{
         writing-mode: vertical-rl;
@@ -729,22 +732,28 @@ img{
         font-size: 4vw;
         text-align: center;
         background-color: transparent;
-        background-color: rgba(181, 178, 178, 0.345);
+        background-color: #b5b2b258;
         height: 100%;
         padding: 2vw 4vw;
         border: none;
 
     }
     #page3 .skill-div{
+        width: 80%;
         display: flex;
         flex-direction: column;
-        gap: 5vw;
+        gap: 9vw;
+        padding-bottom: 5vw;
     }
     #page3 .skill-parts .skill{
-        gap: 1vw;
+        width: 100%;
+        gap: 3vw;
+    }
+    .skill .progress{
+        height: 3vw;
     }
     #page3 .skill-parts h3{
-        font-size: 2.1vw;
+        font-size: 4vw;
         line-height: 3vw;
     }
     #page3 .icon-box{
@@ -755,7 +764,7 @@ img{
     #page3 .icon-box img{
         z-index: 1;
         width: 15vw;
-        opacity: .6;
+        opacity: .3;
     }
     #page3 .icon-box .html{
         left: 65%;
@@ -849,6 +858,8 @@ img{
     #footer .colms h4 a{
         font-size: 3vw;
     }
-  
+    #greet h1{
+        font-size: 2.5vw;
+    }
 
 }
